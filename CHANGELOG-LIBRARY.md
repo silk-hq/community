@@ -1,5 +1,11 @@
 # Changelog — Library
 
+## v0.9.8
+
+**Release date**: 2025-06-30
+
+- Add JSDoc comments to all components, sub-components and props to provide rich in-editor hints.
+
 ## v0.9.7
 
 **Release date**: 2025-06-18
