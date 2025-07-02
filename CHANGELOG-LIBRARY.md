@@ -1,5 +1,12 @@
 # Changelog — Library
 
+## v0.9.9
+
+**Release date**: 2025-07-02
+
+- Fix Sheet programmatic dismissal not working with `swipeDismissal={false}` after a swipe attempt. [#71](https://github.com/silk-hq/silk/issues/71)
+- Fix `swipeOvershoot={false}` not working with `tracks` using two values and `swipeDismissal={false}`.
+
 ## v0.9.8
 
 **Release date**: 2025-06-30
@@ -40,13 +47,13 @@
 
 **Release date**: 2025-05-02
 
-- Fix `onClickOutside` event being triggered when a click occurred on an element inside of `<Sheet.View>` whose ancestor DOM node was removed from the DOM at the same time. https://github.com/silk-hq/community/issues/51
+- Fix `onClickOutside` event being triggered when a click occurred on an element inside of `<Sheet.View>` whose ancestor DOM node was removed from the DOM at the same time. https://github.com/silk-hq/silk/issues/51
 
 ## v0.9.1
 
 - Fix “scroll-by” being interpreted as “scroll-to” in `<Scroll.Trigger>` `action` prop.
-- Fix descendant element animation starting during the `entering` phase and ongoing during the `idleInside` phase preventing interaction with the sheet. https://github.com/silk-hq/community/issues/33
-- Fix `touchstart` and `touchend` events not propagating to thrid-party HTML elements. https://github.com/silk-hq/community/issues/50
+- Fix descendant element animation starting during the `entering` phase and ongoing during the `idleInside` phase preventing interaction with the sheet. https://github.com/silk-hq/silk/issues/33
+- Fix `touchstart` and `touchend` events not propagating to thrid-party HTML elements. https://github.com/silk-hq/silk/issues/50
 
 ## v0.9.0 (breaking change)
 
@@ -59,12 +66,12 @@
 
 ## v0.8.15
 
-- Fix travel and stacking animations when a sheet is used in a controlled manner (i.e. using the `presented` and `onPresentedChange` props). [#28](https://github.com/silk-hq/community/issues/28)
+- Fix travel and stacking animations when a sheet is used in a controlled manner (i.e. using the `presented` and `onPresentedChange` props). [#28](https://github.com/silk-hq/silk/issues/28)
 
 ## v0.8.14
 
-- Throw a proper error when the `theme-color` meta-tag is not set when the `themeColorDimming` prop on Sheet.Backdrop is used. [#13](https://github.com/silk-hq/community/issues/13)
-- Throw a proper error when the `theme-color` meta-tag is not using the `rgb()` format for its content when using the `themeColorDimming` prop on Sheet.Backdrop is used. [#18](https://github.com/silk-hq/community/issues/18)
-- Fix the types not being applied to the `<Sheet.Root />` component. [#17](https://github.com/silk-hq/community/issues/17)
-- Remove unnecessary peerDepencies. [#27](https://github.com/silk-hq/community/issues/27)
-- Fix invalid CSS. [#12](https://github.com/silk-hq/community/issues/12)
+- Throw a proper error when the `theme-color` meta-tag is not set when the `themeColorDimming` prop on Sheet.Backdrop is used. [#13](https://github.com/silk-hq/silk/issues/13)
+- Throw a proper error when the `theme-color` meta-tag is not using the `rgb()` format for its content when using the `themeColorDimming` prop on Sheet.Backdrop is used. [#18](https://github.com/silk-hq/silk/issues/18)
+- Fix the types not being applied to the `<Sheet.Root />` component. [#17](https://github.com/silk-hq/silk/issues/17)
+- Remove unnecessary peerDepencies. [#27](https://github.com/silk-hq/silk/issues/27)
+- Fix invalid CSS. [#12](https://github.com/silk-hq/silk/issues/12)
