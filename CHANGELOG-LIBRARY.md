@@ -1,5 +1,12 @@
 # Changelog — Library
 
+## v0.9.10
+
+**Release date**: 2025-07-06
+
+- Add an `updateThemeColor` function that lets you update the `theme-color` in a safe way while a Sheet using the `themeColorDimming` prop is presented, or when the `useThemeColorDimmingOverlay` hook is used.
+- The `themeColorDimming` prop on `<Sheet.Backdrop>` now fetches the `theme-color` meta-tag each time a Sheet gets presented, thus taking into account potential changes. [#73](https://github.com/silk-hq/silk/issues/73)
+
 ## v0.9.9
 
 **Release date**: 2025-07-02
