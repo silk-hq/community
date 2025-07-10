@@ -1,5 +1,12 @@
 # Changelog — Library
 
+## v0.9.11
+
+**Release date**: 2025-07-10
+
+- Fix potential error by adding a safeguard. [#74](https://github.com/silk-hq/silk/issues/74)
+- Remove some logging. [#74](https://github.com/silk-hq/silk/issues/74)
+
 ## v0.9.10
 
 **Release date**: 2025-07-06
