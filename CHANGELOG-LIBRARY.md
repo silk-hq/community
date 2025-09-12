@@ -1,5 +1,12 @@
 # Changelog — Library
 
+## v0.9.12
+
+**Release date**: 2025-09-12
+
+- Change the behavior of the `onClickOutside` event handler on `<Sheet.View>` so it runs even if propagation is stopped on `click` events fired on `<Sheet.View>`. [#100](https://github.com/silk-hq/silk/issues/100)
+- Expand the `componentRef` prop type on `<Scroll.Root>` so it accepts `null`.
+
 ## v0.9.11
 
 **Release date**: 2025-07-10
