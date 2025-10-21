@@ -1,5 +1,13 @@
 # Changelog — Library
 
+# v0.10.0 (breaking change)
+
+**Release date**: 2025-10-21
+
+- Fix a bug that may occur with small `<Sheet.Content>` or small detents.
+- Change the behavior of the `exitingAnimationSettings` prop’s `contentMove` option behavior, when `false` the `<Sheet.Content>` now remains on its current detent till the animation is finished. (breaking change)
+- Make `theme-color` HTML meta tag manipulations safer in contexts where it cannot be defined. [#18](https://github.com/silk-hq/silk/issues/18)
+
 ## v0.9.12
 
 **Release date**: 2025-09-12
