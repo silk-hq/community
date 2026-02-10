@@ -1,5 +1,11 @@
 # Changelog — Library
 
+# v0.10.1
+
+**Release date**: 2026-02-10
+
+- Improve the safety of internal styles by protecting them from global style overrides.
+
 # v0.10.0 (breaking change)
 
 **Release date**: 2025-10-21
